@@ -10,12 +10,12 @@ The key to WOLFRAM is, I believe, that it's symbolism makes it excellent in poly
 At its core WOLFRAM represents data by formal polynomials. 
 Thus every numeric value (floating point) x occurs in WOLFRAM with a header, something like pt[x] or value[x]. 
 
-As polynomials are also analogous to "states" in Dirac's definitions of Quantum Mechancis, it appears that WOLFRAM language is naturally
-suited to quantum algorithms and applications.
+As polynomials are formally "states" in Dirac's definitions of Quantum Mechanics, it appears that WOLFRAM language is naturally
+suited to quantum algorithms and applications. 
+Remark: here I am considering the idea of boson/fermion distributions as corresponding to symmetric/antisymmetric polynomials in the suitable vector spaces.
 
 For example, a mathematician says "Let μ be a probability measure on the circle S^1". 
 But how to sample the measure μ? How to discover/explore the properties of μ?
-
 While μ exists in the intellect (ego) of the mathematician, to explore/interrogate μ requires a positive constructive representation of μ.
 In our experience, WOLFRAM can properly represent μ as a polynomial μ = pt[x1]+pt[x2]+pt[x3]+..., etc. 
 Formally, the header "pt" is formal symbol which tells us, the reader, that the values x1,x2,x3,... represent point coordinates.
@@ -34,5 +34,5 @@ w/.(pt[x_] ev[f_]->Nothing;f<0)
 
 In words, the above expression says: replace all occurences of pt[x_] ev[f_] with Nothing if f_<0. What remains will be the positive terms.
 
-Now the above example is elementary, but it contains some basic ideas: that the basic objects are polynomials, and the basic operation is FIND ALL AND REPLACE.
+Now the above examples are very elementary, but they contains some basic ideas: that the basic objects are polynomials, and the basic operation is FIND ALL AND REPLACE. And this is just the beginning....
 
