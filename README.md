@@ -1,16 +1,22 @@
 # WOLFRAM
 On WOLFRAM Language in my Research:
-
 This repository contains sample code illustrating the applications of WOLFRAM in my research.
 
 The beauty of WOLFRAM lies in it being a symbolic language. 
-And among all programming languages, WOLFRAM is most analogous to the thought processes of a mathematician.
+And among all programming languages, we find WOLFRAM most analogous to ("parallel to") the thought processes of a mathematician.
+WOLFRAM's symbolism means it excels in polynomial transformations. 
+Thus we use WOLFRAM to represent data by formal polynomials. 
+Thus every numeric value (floating point) x occurs in WOLFRAM with a header, something like pt[x] or value[x]. 
+A collection of data is represented by a polynomial pt[x1]+pt[x2]+pt[x3]+.... (This is the total state, akin to Hadamard state in QC).
+We view "calculations" as processes/transforms of the total state.
+If we have search algorithm, then we search by reducing the support of the state (collapsing/vanishing terms which do not satisfy our criteria, etc.)
 
-The key to WOLFRAM is, I believe, that it's symbolism makes it excellent in polynomial transformations. We use  WOLFRAM to represent data by formal polynomials. Thus every numeric value (floating point) x occurs in WOLFRAM with a header, something like pt[x] or value[x]. 
+Speculation on WOLFRAM and Quantum Computers: 
+Dirac's treatment of Quantum Mechanics also distinguishes polynomials as states (with their superpositions). 
+Here I am considering the idea of boson/fermion distributions as corresponding to symmetric/antisymmetric polynomials in the suitable vector spaces.
+So our sense is that WOLFRAM is naturally compatible with any QC. That is, our use of WOLFRAM it appears immediately applicable to, say, the DWAVE system. Thus instead of a determinate state pt[x1]+pt[x2]+..., we shall have a fluctuating stochastic variable pt[ψ], where ψ varies over the set {x1,x2,x3,...} according to some distribution. 
 
-As polynomials are formally "states" in Dirac's definitions of Quantum Mechanics, it appears that WOLFRAM language is naturally
-suited to quantum algorithms and applications. 
-Remark: here I am considering the idea of boson/fermion distributions as corresponding to symmetric/antisymmetric polynomials in the suitable vector spaces.
+The abstract theoretical mathematician is mostly trained in cataphatic constructions, i.e. negative, logical reasoning. In our experience, the typical example is Brouwer's No Retract Theorem: If X is compact oriented manifold, then there does not exist a deformation retract from X to its boundary δX.
 
 For example, a mathematician says "Let μ be a probability measure on the circle S^1". 
 But how to sample the measure μ? How to discover/explore the properties of μ?
