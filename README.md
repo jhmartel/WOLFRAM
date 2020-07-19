@@ -1,5 +1,6 @@
 # WOLFRAM
 On WOLFRAM Language in my Research:
+
 This repository contains sample code illustrating the applications of WOLFRAM in my research.
 
 The beauty of WOLFRAM lies in it being a symbolic language. 
@@ -16,7 +17,7 @@ Dirac's treatment of Quantum Mechanics also distinguishes polynomials as states 
 Here I am considering the idea of boson/fermion distributions as corresponding to symmetric/antisymmetric polynomials in the suitable vector spaces.
 So our sense is that WOLFRAM is naturally compatible with any QC. That is, our use of WOLFRAM it appears immediately applicable to, say, the DWAVE system. Thus instead of a determinate state pt[x1]+pt[x2]+..., we shall have a fluctuating stochastic variable pt[ψ], where ψ varies over the set {x1,x2,x3,...} according to some distribution. 
 
-The abstract theoretical mathematician is mostly trained in cataphatic constructions, i.e. negative, logical reasoning. In our experience, the typical example is Brouwer's No Retract Theorem: If X is compact oriented manifold, then there does not exist a deformation retract from X to its boundary δX.
+The abstract theoretical mathematician is mostly trained in cataphatic constructions, i.e. negative, logical reasoning. In our experience, the typical example is Brouwer's No Retract Theorem: If X is compact oriented manifold, then there does not exist a deformation retract from X to its boundary δX. But a mathematician who seeks computers as a tool of experimentation needs immediately confront the reality that: ideas in his mind/ego are purely negative, having no physical content, and thus incapable of being represented/constructed/simulated in the memory/state space of a computer. In this sense, during our PhD thesis, we came to the conclusion that the most fundamental constructive mathematics needs be rooted in physics, i.e. the structure/laws of matter and creation.
 
 For example, a mathematician says "Let μ be a probability measure on the circle S^1". 
 But how to sample the measure μ? How to discover/explore the properties of μ?
@@ -24,6 +25,7 @@ While μ exists in the intellect (ego) of the mathematician, to explore/interrog
 In our experience, WOLFRAM can properly represent μ as a polynomial μ = pt[x1]+pt[x2]+pt[x3]+..., etc. 
 Formally the header "pt" is formal symbol which tells us, the reader, that the values x1,x2,x3,... represent point coordinates.
 Thus pt[x1] represents "a point at x1".
+N.B. we are using the idea of "Dirac mass at x1" as interchangeable with "point at x1".
 
 If we have a scalar function, say f(x), then we represent the graph of f by the expression w := pt[x1] ev[f(x1)]+pt[x2] ev[f(x2)]+....
 Integrating f with respect to μ would take the form 
