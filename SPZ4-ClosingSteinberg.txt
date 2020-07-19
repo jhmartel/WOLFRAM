@@ -1,4 +1,4 @@
-The following solutions to (CS) span six dimensions. 
+The following solutions to (CS) for the integral symplectic group SP(Z^4) and span six real dimensions. 
 
 {
 {{1., 0., 0., 0.}, {0., 1., 0., 0.}, {0., 0., 1., 0.}, {0., 0., 0., 1.}}, 
