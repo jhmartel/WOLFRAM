@@ -76,7 +76,7 @@ Future goals:
 - Find symbolic representation of Γ=MCG(Σ) in WOLFRAM language.
 - Find symbolic model for action of Γ on the curve complex CC of simple closed curves on Σ in WOLFRAM.
 
-There is interesting Python program written by Mark Bell [c.f. www.github.com/jhmartel/MCG] which computes the Γ-action on CC for various surfaces Σ with punctures, boundaries, etc. 
+There is interesting Python program written by Mark Bell [c.f. https://markcbell.github.io/build/html/software.html#curver-software] which computes the Γ-action on CC for various surfaces Σ with punctures, boundaries, etc. 
 But the application to closed hyperbolic surfaces is not clear to this author.
 
 The representations of Mark Bell are based on Thurston's compactification of Teichmueller space, and the projective measured laminations (PML). 
