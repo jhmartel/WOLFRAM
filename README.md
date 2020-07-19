@@ -46,21 +46,22 @@ We use WOLFRAM to:
 - Represent probability measures μ as polynomials on spaces X.
 - Simulate Law of Large Numbers, i.e. convergence of renormalized Nth powers LIM μ^N/N! as N diverges to +infinity.
 - Model electrorepulsion energy costs c on subsets X of R^N.
-- Solve c-optimal transports and dual Monge-Kantorovich program.
+- Solve c-optimal transports and dual Monge-Kantorovich program relative to electrorepulsion costs c.
 - Compute c-subdifferentials δφ(y) of c-convex potentials φ on source (X,μ) relative to a target space (Y,τ).
 - Model singularities (stratified locus of discontinuity) of c-optimal transports.
 
 Note: c-subdifferentials are cells in a nonlinear Voronoi partition, as parameterized by target measure τ and energy cost c. 
 The standard Voronoi cells are parameterized by discrete target measure τ and quadratic distance cost c=dist^2/2.
+Our thesis studied the singularity structures of a type of Voronoi cellulation arising from electrical configurations.
 
 Future goals: 
 
 - Model and simulate Weberian solutions to Birkeland's force free field aligned currents.
-- Given a current discharge in a plasma, model the geometry of discharge, i.e. solve the electron density J where "internal pressure" 
-(self-interaction energy) of the current discharge J which has minimal energy, i.e. zero internal pressure, where the pressure force is defined by Weber's force law(and not Lorentz!).
+- Given a current discharge in a plasma, model the geometry of electric field, i.e. solve the electron density J where "internal pressure" 
+(self-interaction energy) of the current discharge J which has minimal energy, i.e. zero internal pressure, where the pressure force is defined by Weber's force law and not Lorentz.
 
 The first phase of our PhD thesis studied the topology of singularities of c-optimal transports, where c is either an attractive or repulsive cost.
-The second phase applied the topology of singularity methods to constructing small-dimensional EΓ models, where Γ is a discrete group of finite cohomological dimension.
+The second phase applied the topology of singularity methods to constructing small-dimensional EΓ models, where Γ is a discrete group of finite cohomological dimension. E.g. Γ= arithmetic groups, mapping class groups, discrete linear groups, braid groups, etc.
 Thus we apply our reduction to singularity technique to constructing souls/spines. An important subprogram arises in our applications, a problem we call Closing the Steinberg symbol. The problem is related to stitching a football from regular identical panels. 
 
 We used WOLFRAM to:
